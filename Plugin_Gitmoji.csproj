@@ -1,0 +1,334 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.8-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>10.0</LangVersion>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <DebugType>embedded</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+
+    <Product>Plugin_Gitmoji</Product>
+    <BaseOutputPath>G:\Quokka\Quokka\PlugBoard\Plugin_Gitmoji</BaseOutputPath>
+    <Configurations>Debug;Release;Plugin</Configurations>
+
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quokka\Quokka.csproj"></ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ContentWithTargetPath Include="settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>settings.json</TargetPath>
+    </ContentWithTargetPath>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ContentWithTargetPath Include="zap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>zap.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="art.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>art.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="bug.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>bug.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="ambulance.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>ambulance.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="fire.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>fire.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="sparkles.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>sparkles.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="memo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>memo.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="rocket.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>rocket.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="lipstick.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>lipstick.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="tada.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>tada.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="lock.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>lock.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="white_check_mark.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>white_check_mark.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="bookmark.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>bookmark.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="closed_lock_with_key.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>closed_lock_with_key.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="green_heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>green_heart.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="rotating_light.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>rotating_light.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="construction.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>construction.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="arrow_down.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>arrow_down.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="arrow_up.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>arrow_up.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="pushpin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>pushpin.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="recycle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>recycle.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="construction_worker.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>construction_worker.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="chart_with_upwards_trend.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>chart_with_upwards_trend.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="wrench.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>wrench.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="heavy_plus_sign.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>heavy_plus_sign.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="heavy_minus_sign.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>heavy_minus_sign.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="hammer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>hammer.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="pencil2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>pencil2.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="globe_with_meridians.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>globe_with_meridians.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="poop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>poop.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="rewind.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>rewind.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="package.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>package.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="twisted_rightwards_arrows.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>twisted_rightwards_arrows.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="alien.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>alien.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="truck.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>truck.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="boom.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>boom.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="page_facing_up.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>page_facing_up.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="bento.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>bento.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="bulb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>bulb.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="beers.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>beers.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="wheelchair.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>wheelchair.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="loud_sound.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>loud_sound.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="speech_balloon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>speech_balloon.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="card_file_box.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>card_file_box.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="mute.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>mute.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="iphone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>iphone.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="busts_in_silhouette.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>busts_in_silhouette.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="children_crossing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>children_crossing.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="building_construction.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>building_construction.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="clown_face.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>clown_face.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="egg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>egg.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="alembic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>alembic.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="see_no_evil.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>see_no_evil.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="camera_flash.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>camera_flash.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="mag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>mag.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="label.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>label.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="seedling.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>seedling.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="goal_net.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>goal_net.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="dizzy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>dizzy.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="triangular_flag_on_post.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>triangular_flag_on_post.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="wastebasket.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>wastebasket.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="passport_control.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>passport_control.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="adhesive_bandage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>adhesive_bandage.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="monocle_face.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>monocle_face.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="coffin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>coffin.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="test_tube.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>test_tube.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="necktie.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>necktie.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="stethoscope.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>stethoscope.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="bricks.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>bricks.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="technologist.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>technologist.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="money_with_wings.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>money_with_wings.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="thread.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>thread.png</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="safety_vest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>safety_vest.png</TargetPath>
+    </ContentWithTargetPath>
+  </ItemGroup>
+
+</Project>

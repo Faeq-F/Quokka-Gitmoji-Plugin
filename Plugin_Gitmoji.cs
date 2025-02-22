@@ -49,9 +49,9 @@ namespace Plugin_Gitmoji {
       //filtering emojis
       foreach (Gitmoji emoji in pluginSettings.gitmojis) {
         if (emoji.description.Contains(query, StringComparison.OrdinalIgnoreCase)
-          || emoji.code.Contains(query, StringComparison.OrdinalIgnoreCase)
+          || emoji.code.Replace(":", "").Contains(query, StringComparison.OrdinalIgnoreCase)
                 || FuzzySearch.LD(emoji.description, query) < PluginSettings.FuzzySearchThreshold
-                || FuzzySearch.LD(emoji.code, query) < PluginSettings.FuzzySearchThreshold) {
+                || FuzzySearch.LD(emoji.code.Replace(":", ""), query) < PluginSettings.FuzzySearchThreshold) {
           IdentifiedEmojis.Add(new GitmojiItem(emoji.code, emoji.description));
         }
       }

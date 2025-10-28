@@ -45,17 +45,15 @@ namespace Plugin_Gitmoji {
     public override string PluggerName { get; set; } = "Gitmoji";
 
     private List<ListItem> ProduceItems(string query) {
-      List<ListItem> IdentifiedEmojis = new();
-      //filtering emojis
-      foreach (Gitmoji emoji in pluginSettings.gitmojis) {
-        if (emoji.description.Contains(query, StringComparison.OrdinalIgnoreCase)
-          || emoji.code.Replace(":", "").Contains(query, StringComparison.OrdinalIgnoreCase)
-                || FuzzySearch.LD(emoji.description, query) < PluginSettings.FuzzySearchThreshold
-                || FuzzySearch.LD(emoji.code.Replace(":", ""), query) < PluginSettings.FuzzySearchThreshold) {
-          IdentifiedEmojis.Add(new GitmojiItem(emoji.code, emoji.description));
-        }
-      }
-      return IdentifiedEmojis;
+      return
+
+      FuzzySearch.searchAll(query, pluginSettings.gitmojis.Select(x => x.description).ToList(), PluginSettings.FuzzySearchThreshold).Concat(
+
+        FuzzySearch.searchAll(query, pluginSettings.gitmojis.Select(x =>
+        x.code.Replace(":", "")).ToList(), PluginSettings.FuzzySearchThreshold)
+
+        ).Select(x => (ListItem) new GitmojiItem(pluginSettings.gitmojis[x.Index].code, pluginSettings.gitmojis[x.Index].description)
+      ).Distinct().ToList();
     }
 
     /// <summary>
@@ -85,7 +83,7 @@ namespace Plugin_Gitmoji {
     /// <returns>List of emojis that possibly match what is being searched for</returns>
     public override List<ListItem> OnSignifier(string command) {
       command = command.Substring(PluginSettings.GitmojiSignifier.Length);
-      return ProduceItems(command);
+      return FuzzySearch.sort(command, ProduceItems(command)).ToList();
     }
 
 

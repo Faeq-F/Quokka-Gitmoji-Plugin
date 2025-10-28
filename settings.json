@@ -1,7 +1,7 @@
 {
   "AllEmojiSpecialCommand": "gitmoji",
   "GitmojiSignifier": "gitmoji ",
-  "FuzzySearchThreshold": 4,
+  "FuzzySearchThreshold": 70,
   "gitmojis": [
     {
             "code": ":art:",

@@ -10,11 +10,13 @@ namespace Plugin_Gitmoji {
   class GitmojiItem : ListItem {
 
     public GitmojiItem(string code, string desciption) {
-      this.Name = code;
-      this.Description = desciption;
-      String filename = code.Substring(1, code.Length - 2);
-      this.Icon = new BitmapImage(new Uri(
-          Environment.CurrentDirectory + "\\PlugBoard\\Plugin_Gitmoji\\Plugin\\" + filename + ".png"));
+      Name = code;
+      Description = desciption;
+      string filename = code.Substring(1, code.Length - 2);
+      UiDispatcher.BeginInvoke(() => {
+        Icon = new BitmapImage(new Uri(
+            Environment.CurrentDirectory + "\\PlugBoard\\Plugin_Gitmoji\\Plugin\\" + filename + ".png"));
+      });
     }
 
     //When item is selected, copy code

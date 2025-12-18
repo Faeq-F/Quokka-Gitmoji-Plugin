@@ -2,306 +2,306 @@
   "AllEmojiSpecialCommand": "gitmoji",
   "GitmojiSignifier": "gitmoji ",
   "FuzzySearchThreshold": 70,
-  "gitmojis": [
+  "Gitmojis": [
     {
-            "code": ":art:",
-      "description": "Improve structure / format of the code."
+            "Code": ":art:",
+      "Description": "Improve structure / format of the code."
     },
     {
-            "code": ":zap:",
-      "description": "Improve performance.",
-    },
-    {
-
-            "code": ":fire:",
-      "description": "Remove code or files.",
-
+            "Code": ":zap:",
+      "Description": "Improve performance.",
     },
     {
 
-            "code": ":bug:",
-      "description": "Fix a bug.",
+            "Code": ":fire:",
+      "Description": "Remove code or files.",
 
     },
     {
 
-            "code": ":ambulance:",
-      "description": "Critical hotfix.",
+            "Code": ":bug:",
+      "Description": "Fix a bug.",
 
     },
     {
 
-            "code": ":sparkles:",
-      "description": "Introduce new features.",
+            "Code": ":ambulance:",
+      "Description": "Critical hotfix.",
 
     },
     {
-            "code": ":memo:",
-      "description": "Add or update documentation.",
+
+            "Code": ":sparkles:",
+      "Description": "Introduce new features.",
+
     },
     {
-            "code": ":rocket:",
-      "description": "Deploy stuff.",
+            "Code": ":memo:",
+      "Description": "Add or update documentation.",
     },
     {
-            "code": ":lipstick:",
-      "description": "Add or update the UI and style files.",
+            "Code": ":rocket:",
+      "Description": "Deploy stuff.",
     },
     {
-            "code": ":tada:",
-      "description": "Begin a project.",
+            "Code": ":lipstick:",
+      "Description": "Add or update the UI and style files.",
     },
     {
-            "code": ":white_check_mark:",
-      "description": "Add, update, or pass tests.",
+            "Code": ":tada:",
+      "Description": "Begin a project.",
     },
     {
-            "code": ":lock:",
-      "description": "Fix security or privacy issues.",
+            "Code": ":white_check_mark:",
+      "Description": "Add, update, or pass tests.",
     },
     {
-            "code": ":closed_lock_with_key:",
-      "description": "Add or update secrets.",
+            "Code": ":lock:",
+      "Description": "Fix security or privacy issues.",
     },
     {
-            "code": ":bookmark:",
-      "description": "Release / Version tags.",
+            "Code": ":closed_lock_with_key:",
+      "Description": "Add or update secrets.",
     },
     {
-            "code": ":rotating_light:",
-      "description": "Fix compiler / linter warnings.",
+            "Code": ":bookmark:",
+      "Description": "Release / Version tags.",
     },
     {
-            "code": ":construction:",
-      "description": "Work in progress.",
+            "Code": ":rotating_light:",
+      "Description": "Fix compiler / linter warnings.",
     },
     {
-            "code": ":green_heart:",
-      "description": "Fix CI Build.",
+            "Code": ":construction:",
+      "Description": "Work in progress.",
     },
     {
-            "code": ":arrow_down:",
-      "description": "Downgrade dependencies.",
+            "Code": ":green_heart:",
+      "Description": "Fix CI Build.",
     },
     {
-            "code": ":arrow_up:",
-      "description": "Upgrade dependencies.",
+            "Code": ":arrow_down:",
+      "Description": "Downgrade dependencies.",
     },
     {
-            "code": ":pushpin:",
-      "description": "Pin dependencies to specific versions.",
+            "Code": ":arrow_up:",
+      "Description": "Upgrade dependencies.",
     },
     {
-            "code": ":construction_worker:",
-      "description": "Add or update CI build system.",
+            "Code": ":pushpin:",
+      "Description": "Pin dependencies to specific versions.",
     },
     {
-            "code": ":chart_with_upwards_trend:",
-      "description": "Add or update analytics or track code.",
+            "Code": ":construction_worker:",
+      "Description": "Add or update CI build system.",
     },
     {
-            "code": ":recycle:",
-      "description": "Refactor code.",
+            "Code": ":chart_with_upwards_trend:",
+      "Description": "Add or update analytics or track code.",
     },
     {
-            "code": ":heavy_plus_sign:",
-      "description": "Add a dependency.",
+            "Code": ":recycle:",
+      "Description": "Refactor code.",
     },
     {
-            "code": ":heavy_minus_sign:",
-      "description": "Remove a dependency.",
+            "Code": ":heavy_plus_sign:",
+      "Description": "Add a dependency.",
     },
     {
-            "code": ":wrench:",
-      "description": "Add or update configuration files.",
+            "Code": ":heavy_minus_sign:",
+      "Description": "Remove a dependency.",
     },
     {
-            "code": ":hammer:",
-      "description": "Add or update development scripts.",
+            "Code": ":wrench:",
+      "Description": "Add or update configuration files.",
     },
     {
-            "code": ":globe_with_meridians:",
-      "description": "Internationalization and localization.",
+            "Code": ":hammer:",
+      "Description": "Add or update development scripts.",
     },
     {
-            "code": ":pencil2:",
-      "description": "Fix typos.",
+            "Code": ":globe_with_meridians:",
+      "Description": "Internationalization and localization.",
     },
     {
-            "code": ":poop:",
-      "description": "Write bad code that needs to be improved.",
+            "Code": ":pencil2:",
+      "Description": "Fix typos.",
     },
     {
-            "code": ":rewind:",
-      "description": "Revert changes.",
+            "Code": ":poop:",
+      "Description": "Write bad code that needs to be improved.",
     },
     {
-            "code": ":twisted_rightwards_arrows:",
-      "description": "Merge branches.",
+            "Code": ":rewind:",
+      "Description": "Revert changes.",
     },
     {
-            "code": ":package:",
-      "description": "Add or update compiled files or packages.",
+            "Code": ":twisted_rightwards_arrows:",
+      "Description": "Merge branches.",
     },
     {
-            "code": ":alien:",
-      "description": "Update code due to external API changes.",
+            "Code": ":package:",
+      "Description": "Add or update compiled files or packages.",
     },
     {
-            "code": ":truck:",
-      "description": "Move or rename resources (e.g.: files, paths, routes).",
+            "Code": ":alien:",
+      "Description": "Update code due to external API changes.",
     },
     {
-            "code": ":page_facing_up:",
-      "description": "Add or update license.",
+            "Code": ":truck:",
+      "Description": "Move or rename resources (e.g.: files, paths, routes).",
     },
     {
-            "code": ":boom:",
-      "description": "Introduce breaking changes.",
+            "Code": ":page_facing_up:",
+      "Description": "Add or update license.",
     },
     {
-            "code": ":bento:",
-      "description": "Add or update assets.",
+            "Code": ":boom:",
+      "Description": "Introduce breaking changes.",
     },
     {
-            "code": ":wheelchair:",
-      "description": "Improve accessibility.",
+            "Code": ":bento:",
+      "Description": "Add or update assets.",
     },
     {
-            "code": ":bulb:",
-      "description": "Add or update comments in source code.",
+            "Code": ":wheelchair:",
+      "Description": "Improve accessibility.",
     },
     {
-            "code": ":beers:",
-      "description": "Write code drunkenly.",
+            "Code": ":bulb:",
+      "Description": "Add or update comments in source code.",
     },
     {
-            "code": ":speech_balloon:",
-      "description": "Add or update text and literals.",
+            "Code": ":beers:",
+      "Description": "Write code drunkenly.",
     },
     {
-            "code": ":card_file_box:",
-      "description": "Perform database related changes.",
+            "Code": ":speech_balloon:",
+      "Description": "Add or update text and literals.",
     },
     {
-            "code": ":loud_sound:",
-      "description": "Add or update logs.",
+            "Code": ":card_file_box:",
+      "Description": "Perform database related changes.",
     },
     {
-            "code": ":mute:",
-      "description": "Remove logs.",
+            "Code": ":loud_sound:",
+      "Description": "Add or update logs.",
     },
     {
-            "code": ":busts_in_silhouette:",
-      "description": "Add or update contributor(s).",
+            "Code": ":mute:",
+      "Description": "Remove logs.",
     },
     {
-            "code": ":children_crossing:",
-      "description": "Improve user experience / usability.",
+            "Code": ":busts_in_silhouette:",
+      "Description": "Add or update contributor(s).",
     },
     {
-            "code": ":building_construction:",
-      "description": "Make architectural changes.",
+            "Code": ":children_crossing:",
+      "Description": "Improve user experience / usability.",
     },
     {
-            "code": ":iphone:",
-      "description": "Work on responsive design.",
+            "Code": ":building_construction:",
+      "Description": "Make architectural changes.",
     },
     {
-            "code": ":clown_face:",
-      "description": "Mock things.",
+            "Code": ":iphone:",
+      "Description": "Work on responsive design.",
     },
     {
-            "code": ":egg:",
-      "description": "Add or update an easter egg.",
+            "Code": ":clown_face:",
+      "Description": "Mock things.",
     },
     {
-            "code": ":see_no_evil:",
-      "description": "Add or update a .gitignore file.",
+            "Code": ":egg:",
+      "Description": "Add or update an easter egg.",
     },
     {
-            "code": ":camera_flash:",
-      "description": "Add or update snapshots.",
+            "Code": ":see_no_evil:",
+      "Description": "Add or update a .gitignore file.",
     },
     {
-            "code": ":alembic:",
-      "description": "Perform experiments.",
+            "Code": ":camera_flash:",
+      "Description": "Add or update snapshots.",
     },
     {
-            "code": ":mag:",
-      "description": "Improve SEO.",
+            "Code": ":alembic:",
+      "Description": "Perform experiments.",
     },
     {
-            "code": ":label:",
-      "description": "Add or update types.",
+            "Code": ":mag:",
+      "Description": "Improve SEO.",
     },
     {
-            "code": ":seedling:",
-      "description": "Add or update seed files.",
+            "Code": ":label:",
+      "Description": "Add or update types.",
     },
     {
-            "code": ":triangular_flag_on_post:",
-      "description": "Add, update, or remove feature flags.",
+            "Code": ":seedling:",
+      "Description": "Add or update seed files.",
     },
     {
-            "code": ":goal_net:",
-      "description": "Catch errors.",
+            "Code": ":triangular_flag_on_post:",
+      "Description": "Add, update, or remove feature flags.",
     },
     {
-            "code": ":dizzy:",
-      "description": "Add or update animations and transitions.",
+            "Code": ":goal_net:",
+      "Description": "Catch errors.",
     },
     {
-            "code": ":wastebasket:",
-      "description": "Deprecate code that needs to be cleaned up.",
+            "Code": ":dizzy:",
+      "Description": "Add or update animations and transitions.",
     },
     {
-            "code": ":passport_control:",
-      "description": "Work on code related to authorization, roles and permissions.",
+            "Code": ":wastebasket:",
+      "Description": "Deprecate code that needs to be cleaned up.",
     },
     {
-            "code": ":adhesive_bandage:",
-      "description": "Simple fix for a non-critical issue.",
+            "Code": ":passport_control:",
+      "Description": "Work on code related to authorization, roles and permissions.",
     },
     {
-            "code": ":monocle_face:",
-      "description": "Data exploration/inspection.",
+            "Code": ":adhesive_bandage:",
+      "Description": "Simple fix for a non-critical issue.",
     },
     {
-            "code": ":coffin:",
-      "description": "Remove dead code.",
+            "Code": ":monocle_face:",
+      "Description": "Data exploration/inspection.",
     },
     {
-            "code": ":test_tube:",
-      "description": "Add a failing test.",
+            "Code": ":coffin:",
+      "Description": "Remove dead code.",
     },
     {
-            "code": ":necktie:",
-      "description": "Add or update business logic.",
+            "Code": ":test_tube:",
+      "Description": "Add a failing test.",
     },
     {
-            "code": ":stethoscope:",
-      "description": "Add or update healthcheck.",
+            "Code": ":necktie:",
+      "Description": "Add or update business logic.",
     },
     {
-            "code": ":bricks:",
-      "description": "Infrastructure related changes.",
+            "Code": ":stethoscope:",
+      "Description": "Add or update healthcheck.",
     },
     {
-            "code": ":technologist:",
-      "description": "Improve developer experience.",
+            "Code": ":bricks:",
+      "Description": "Infrastructure related changes.",
     },
     {
-            "code": ":money_with_wings:",
-      "description": "Add sponsorships or money related infrastructure.",
+            "Code": ":technologist:",
+      "Description": "Improve developer experience.",
     },
     {
-            "code": ":thread:",
-      "description": "Add or update code related to multithreading or concurrency.",
+            "Code": ":money_with_wings:",
+      "Description": "Add sponsorships or money related infrastructure.",
     },
     {
-            "code": ":safety_vest:",
-      "description": "Add or update code related to validation.",
+            "Code": ":thread:",
+      "Description": "Add or update code related to multithreading or concurrency.",
+    },
+    {
+            "Code": ":safety_vest:",
+      "Description": "Add or update code related to validation.",
     }
   ]
 }
